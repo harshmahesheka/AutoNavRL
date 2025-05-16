@@ -3,7 +3,7 @@
 This code provides an interface to deploy trained reinforcement learning policies on real ground robots like QBot. It implements a Gym-compatible environment that wraps ROS communication for robot control and sensor data processing.
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
-    <img src="../images/multi_obs.gif" alt="Robot Navigation Demo" width="48%"/>
+    <img src="../images/single_obs.gif" alt="Robot Navigation Demo" width="48%"/>
     <img src="../images/dynamic_obs.gif" alt="Real Robot Demo" width="48%"/>
 </div>
 <br>
