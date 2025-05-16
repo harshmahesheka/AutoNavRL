@@ -172,7 +172,7 @@ class SIM_ENV:
         if robot_state is None:
             robot_state = [[random.uniform(0.5, 5.5)], 
                           [random.uniform(0.5, 5.5)], 
-                          [0], [0]]
+                          [0]]
 
         self.env.robot.set_state(state=np.array(robot_state), init=True)
 

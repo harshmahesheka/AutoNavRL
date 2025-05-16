@@ -21,7 +21,7 @@ git clone https://github.com/harshmahesheka/rl-nav
 cd rl-nav
 ```
 
-2. Install the required dependencies:
+2. Install the required dependencies (The code was tested with python 3.10):
 ```bash
 pip install -r requirements.txt
 ```

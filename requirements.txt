@@ -1,6 +1,7 @@
 stable-baselines3
-numpy
 gym
-tensorflow
 shapely
 pyyaml
+ir-sim>2.4.0
+shimmy
+tensorboard

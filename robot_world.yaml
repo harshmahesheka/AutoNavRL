@@ -3,7 +3,7 @@ world:
   width: 6  # the height of the world
   step_time: 0.3  # 10Hz calculate each step
   sample_time: 0.3  # 10 Hz for render and data extraction
-  collision_mode: 'react'
+  collision_mode: 'reactive'
 
 robot:
   - kinematics: {name: 'diff'}

@@ -11,11 +11,7 @@ This code provides an interface to deploy trained reinforcement learning policie
 ## Dependencies
 
 - ROS (tested with ROS Noetic)
-- Python 3.x
-- Required Python packages:
-  - gym
-  - numpy
-  - stable-baselines3
+- Python 3.x (tested with 3.10)
 
 ## File Structure
 
