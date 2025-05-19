@@ -2,7 +2,7 @@
 
 This project implements a reinforcement learning-based robot navigation system that enables autonomous navigation in complex environments with obstacles. The work was done as part of my Master Thesis Submission. 
 
-The code uses [IRSim](https://github.com/ir-sim/ir-sim) to train reinforcement learning policies (using [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)) which can be deployed both in the simulator and on real hardware. We have deployed a policy on the physical [QBot](https://www.quanser.com/products/qbot-platform/) platform. The hardware implementation of ROS-based code can be found in the `ros-deployment/` folder.
+The code uses [IRSim](https://github.com/hanruihua/ir-sim) to train reinforcement learning policies (using [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)) which can be deployed both in the simulator and on real hardware. We have deployed a policy on the physical [QBot](https://www.quanser.com/products/qbot-platform/) platform. The hardware implementation of ROS-based code can be found in the `ros-deployment/` folder.
 
 <p align="center"> <img src="images/multi_obs.gif" alt="Real Robot Demo" width="88%"> </p>
 
@@ -72,5 +72,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3) for the RL algorithms
 - [Gym](https://github.com/openai/gym) for the environment interface  
-- [IRSim](https://github.com/intelligent-robotics/irsim) for the simulation environment
+- [IRSim](https://github.com/hanruihua/ir-sim) for the simulation environment
 - [DRL-IRSim](https://github.com/reiniscimurs/DRL-robot-navigation-IR-SIM) for code inspiration
