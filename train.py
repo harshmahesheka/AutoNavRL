@@ -119,7 +119,18 @@ class RobotNavEnv(gym.Env):
 
         # Downsample laser scan data
         max_bins = self.state_dim - 7
-        bin_size = int(np.ceil(len(latest_scan) / max_bins))
+
+        # Extend latest_scan to make its length divisible by max_bins
+        remainder = len(latest_scan) % max_bins
+        if remainder != 0:
+            # Calculate the number of elements to add
+            elements_to_add = max_bins - remainder
+            # Create an array of the last element repeated elements_to_add times
+            extension = np.full(elements_to_add, latest_scan[-1])
+            # Concatenate the original array with the extension
+            latest_scan = np.concatenate((latest_scan, extension))
+
+        bin_size = int(len(latest_scan) / max_bins)
         min_values = []
         
         # Create bins and get minimum values
